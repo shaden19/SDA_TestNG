@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParametrizedLoginTestSuite">
+    <test name="ParametrizedPositiveLoginTest">
+        <parameter name="username" value="student" />
+        <parameter name="password" value="Password123" />
+        <classes>
+            <class name="sda.tests.day16.Task02" />
+        </classes>
+    </test>
+</suite>
