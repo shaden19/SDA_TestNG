@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TodoAppTestSuite">
+    <test name="TodoAppTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="sda.tests.day17.Task02"/>
+        </classes>
+    </test>
+    <test name="TodoAppTest_Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="sda.tests.day17.Task02"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
